@@ -5,7 +5,7 @@ import pyautogui
 from playback import playActions
 import schedule
 import sys
-
+import threading
 
 
 
@@ -18,10 +18,10 @@ def main():
             playActions("tourney.json")
             time.sleep(1)
 
-            schedule.every(2).seconds.do(pressButton, button ='0')
-            schedule.every(1.75).seconds.do(pressButton, button = 'F10')
-            schedule.every(0.75).seconds.do(pressButton, button = 'X')
-            schedule.every(1).seconds.do(pressButton, button= 'SPACE')
+            schedule.every(2).seconds.do(run_threaded, pressButton, button = '0')
+            schedule.every(1.75).seconds.do(run_threaded, pressButton, button = 'F10')
+            schedule.every(0.75).seconds.do(run_threaded, pressButton, button = 'X')
+            schedule.every(1).seconds.do(run_threaded, pressButton, button = 'SPACE')
 
             print("pass loop")
 
@@ -64,6 +64,11 @@ def pressMouse():
     keys.directMouse(buttons=keys.mouse_lb_press)
     sleep(0.1)
     keys.directMouse(buttons=keys.mouse_lb_release)
+
+def run_threaded(job_func, *args, **kwargs):
+
+   job_thread = threading.Thread(target=job_func, args=args, kwargs=kwargs)
+   job_thread.start()
 
 if __name__ == '__main__':
 
