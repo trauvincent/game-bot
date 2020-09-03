@@ -1,0 +1,197 @@
+[
+    {
+        "time": 0.05286049842834473,
+        "type": "release",
+        "button": "Key.ctrl_l",
+        "pos": null
+    },
+    {
+        "time": 0.05286049842834473,
+        "type": "release",
+        "button": "Key.shift",
+        "pos": null
+    },
+    {
+        "time": 0.5998480319976807,
+        "type": "press",
+        "button": "Key.alt_l",
+        "pos": null
+    },
+    {
+        "time": 0.7367391586303711,
+        "type": "press",
+        "button": "Key.tab",
+        "pos": null
+    },
+    {
+        "time": 0.8903262615203857,
+        "type": "release",
+        "button": "Key.alt_l",
+        "pos": null
+    },
+    {
+        "time": 0.9262311458587646,
+        "type": "release",
+        "button": "Key.tab",
+        "pos": null
+    },
+    {
+        "time": 1.54172682762146,
+        "type": "press",
+        "button": "Key.left",
+        "pos": null
+    },
+    {
+        "time": 6.692727327346802,
+        "type": "release",
+        "button": "Key.left",
+        "pos": null
+    },
+    {
+        "time": 6.984101295471191,
+        "type": "press",
+        "button": "Key.down",
+        "pos": null
+    },
+    {
+        "time": 8.062016487121582,
+        "type": "release",
+        "button": "Key.down",
+        "pos": null
+    },
+    {
+        "time": 8.540737628936768,
+        "type": "press",
+        "button": "Key.down",
+        "pos": null
+    },
+    {
+        "time": 8.968594312667847,
+        "type": "release",
+        "button": "Key.down",
+        "pos": null
+    },
+    {
+        "time": 9.413842916488647,
+        "type": "press",
+        "button": "Key.right",
+        "pos": null
+    },
+    {
+        "time": 11.997271299362183,
+        "type": "release",
+        "button": "Key.right",
+        "pos": null
+    },
+    {
+        "time": 12.408478498458862,
+        "type": "press",
+        "button": "Key.space",
+        "pos": null
+    },
+    {
+        "time": 12.528128862380981,
+        "type": "release",
+        "button": "Key.space",
+        "pos": null
+    },
+    {
+        "time": 13.058226585388184,
+        "type": "press",
+        "button": "Key.down",
+        "pos": null
+    },
+    {
+        "time": 13.160113334655762,
+        "type": "release",
+        "button": "Key.down",
+        "pos": null
+    },
+    {
+        "time": 13.652777194976807,
+        "type": "press",
+        "button": "Key.space",
+        "pos": null
+    },
+    {
+        "time": 13.73776125907898,
+        "type": "release",
+        "button": "Key.space",
+        "pos": null
+    },
+    {
+        "time": 15.569095611572266,
+        "type": "press",
+        "button": "Key.shift",
+        "pos": null
+    },
+    {
+        "time": 16.03266954421997,
+        "type": "click",
+        "button": "Button.left",
+        "pos": [
+            753,
+            416
+        ]
+    },
+    {
+        "time": 16.33885097503662,
+        "type": "release",
+        "button": "Key.shift",
+        "pos": null
+    },
+    {
+        "time": 17.365790367126465,
+        "type": "press",
+        "button": "9",
+        "pos": null
+    },
+    {
+        "time": 17.519808769226074,
+        "type": "release",
+        "button": "9",
+        "pos": null
+    },
+    {
+        "time": 17.604178190231323,
+        "type": "press",
+        "button": "9",
+        "pos": null
+    },
+    {
+        "time": 17.724985122680664,
+        "type": "release",
+        "button": "9",
+        "pos": null
+    },
+    {
+        "time": 18.337204933166504,
+        "type": "click",
+        "button": "Button.left",
+        "pos": [
+            727,
+            426
+        ]
+    },
+    {
+        "time": 19.481199979782104,
+        "type": "click",
+        "button": "Button.left",
+        "pos": [
+            727,
+            426
+        ]
+    },
+    {
+        "time": 20.169909954071045,
+        "type": "press",
+        "button": "Key.esc",
+        "pos": null
+    },
+    {
+        "time": 20.253779649734497,
+        "type": "release",
+        "button": "Key.esc",
+        "pos": null
+    }
+]

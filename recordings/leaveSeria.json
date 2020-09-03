@@ -1,0 +1,15 @@
+[
+
+    {
+        "time": 2.286029577255249,
+        "type": "press",
+        "button": "Key.down",
+        "pos": null
+    },
+    {
+        "time": 3.2439658641815186,
+        "type": "release",
+        "button": "Key.down",
+        "pos": null
+    }
+]

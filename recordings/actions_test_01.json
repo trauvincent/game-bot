@@ -1,0 +1,122 @@
+[
+    {
+        "time": 0.3907968997955322,
+        "type": "release",
+        "button": "Key.ctrl_l",
+        "pos": null
+    },
+    {
+        "time": 0.39159250259399414,
+        "type": "release",
+        "button": "Key.shift",
+        "pos": null
+    },
+    {
+        "time": 1.366164207458496,
+        "type": "press",
+        "button": "d",
+        "pos": null
+    },
+    {
+        "time": 1.5711722373962402,
+        "type": "press",
+        "button": "s",
+        "pos": null
+    },
+    {
+        "time": 1.6044366359710693,
+        "type": "press",
+        "button": "a",
+        "pos": null
+    },
+    {
+        "time": 1.6223762035369873,
+        "type": "release",
+        "button": "d",
+        "pos": null
+    },
+    {
+        "time": 1.7419207096099854,
+        "type": "press",
+        "button": "j",
+        "pos": null
+    },
+    {
+        "time": 1.759871482849121,
+        "type": "release",
+        "button": "a",
+        "pos": null
+    },
+    {
+        "time": 1.7767996788024902,
+        "type": "release",
+        "button": "s",
+        "pos": null
+    },
+    {
+        "time": 1.9038927555084229,
+        "type": "release",
+        "button": "j",
+        "pos": null
+    },
+    {
+        "time": 2.0911061763763428,
+        "type": "press",
+        "button": "g",
+        "pos": null
+    },
+    {
+        "time": 2.3311498165130615,
+        "type": "release",
+        "button": "g",
+        "pos": null
+    },
+    {
+        "time": 2.587676525115967,
+        "type": "press",
+        "button": "h",
+        "pos": null
+    },
+    {
+        "time": 2.706516981124878,
+        "type": "release",
+        "button": "h",
+        "pos": null
+    },
+    {
+        "time": 2.7420289516448975,
+        "type": "press",
+        "button": "j",
+        "pos": null
+    },
+    {
+        "time": 2.878913164138794,
+        "type": "release",
+        "button": "j",
+        "pos": null
+    },
+    {
+        "time": 3.8708417415618896,
+        "type": "press",
+        "button": "f",
+        "pos": null
+    },
+    {
+        "time": 4.110525131225586,
+        "type": "release",
+        "button": "f",
+        "pos": null
+    },
+    {
+        "time": 4.863724231719971,
+        "type": "press",
+        "button": "Key.esc",
+        "pos": null
+    },
+    {
+        "time": 5.033394813537598,
+        "type": "release",
+        "button": "Key.esc",
+        "pos": null
+    }
+]
