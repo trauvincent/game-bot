@@ -20,7 +20,7 @@ def main():
 
             schedule.every(2).seconds.do(run_threaded, pressButton, button = '0')
             schedule.every(1.75).seconds.do(run_threaded, pressButton, button = 'F10')
-            schedule.every(0.75).seconds.do(run_threaded, pressButton, button = 'X')
+            schedule.every(0.75).seconds.do(pressButton, button = 'X')
             schedule.every(1).seconds.do(run_threaded, pressButton, button = 'SPACE')
 
             print("pass loop")
