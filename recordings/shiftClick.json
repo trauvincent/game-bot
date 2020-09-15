@@ -1,0 +1,24 @@
+[
+
+    {
+        "time": 3.594815254211426,
+        "type": "press",
+        "button": "Key.shift",
+        "pos": null
+    },
+    {
+        "time": 4.558725833892822,
+        "type": "click",
+        "button": "Button.left",
+        "pos": [
+            731,
+            406
+        ]
+    },
+    {
+        "time": 7.154924392700195,
+        "type": "release",
+        "button": "Key.shift",
+        "pos": null
+    }
+]

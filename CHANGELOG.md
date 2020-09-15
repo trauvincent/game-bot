@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Added
 
+- Collects materials needed to buy entry materials for bot
 - Automatically buys the correct amount of entry material for the bot
 
 ## [0.0.3] - 09-13-2020
