@@ -1,0 +1,53 @@
+[
+
+    {
+        "time": 1.6959502696990967,
+        "type": "press",
+        "button": "Key.right",
+        "pos": null
+    },
+    {
+        "time": 3.4123876094818115,
+        "type": "release",
+        "button": "Key.right",
+        "pos": null
+    },
+    {
+        "time": 4.034035921096802,
+        "type": "press",
+        "button": "Key.down",
+        "pos": null
+    },
+
+
+    {
+        "time": 7.614297151565552,
+        "type": "release",
+        "button": "Key.down",
+        "pos": null
+    },
+    {
+        "time": 7.756916284561157,
+        "type": "press",
+        "button": "Key.right",
+        "pos": null
+    },
+    {
+        "time": 10.311984300613403,
+        "type": "release",
+        "button": "Key.right",
+        "pos": null
+    },
+    {
+        "time": 11,
+        "type": "press",
+        "button": "Key.up",
+        "pos": null
+    },
+    {
+        "time": 12,
+        "type": "release",
+        "button": "Key.up",
+        "pos": null
+    }
+]
