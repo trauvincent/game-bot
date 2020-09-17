@@ -15,25 +15,25 @@
     {
         "time": 2.5537540912628174,
         "type": "press",
-        "button": "Key.down",
+        "button": "Key.space",
         "pos": null
     },
     {
         "time": 2.6247315406799316,
         "type": "release",
-        "button": "Key.down",
+        "button": "Key.space",
         "pos": null
     },
     {
         "time": 2.995774984359741,
         "type": "press",
-        "button": "Key.down",
+        "button": "Key.space",
         "pos": null
     },
     {
         "time": 3.103572130203247,
         "type": "release",
-        "button": "Key.down",
+        "button": "Key.space",
         "pos": null
     },
     {
@@ -47,5 +47,18 @@
         "type": "release",
         "button": "Key.space",
         "pos": null
+    },
+    {
+        "time": 4.1,
+        "type": "press",
+        "button": "Key.esc",
+        "pos": null
+    },
+    {
+        "time": 4.2,
+        "type": "release",
+        "button": "Key.esc",
+        "pos": null
     }
+
 ]

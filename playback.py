@@ -53,9 +53,7 @@ def playActions(filename):
         for index, action in enumerate(data):
             action_start_time = time()
 
-            # look for escape input to exit
-            if action['button'] == 'Key.esc':
-                break
+            
 
             # perform the action
             if action['type'] == 'press':
@@ -88,6 +86,7 @@ def playActions(filename):
                 elapsed_time = 0
             print('sleeping for {}'.format(elapsed_time))
             sleep(elapsed_time)
+    sleep(1)
 
 
 # convert pynput button keys into pyautogui keys

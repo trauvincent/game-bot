@@ -1,39 +1,26 @@
 [
-
-    {
-        "time": 1.8053162097930908,
-        "type": "press",
-        "button": "Key.space",
-        "pos": null
-    },
-    {
-        "time": 1.893979549407959,
-        "type": "release",
-        "button": "Key.space",
-        "pos": null
-    },
     {
         "time": 2.5537540912628174,
         "type": "press",
-        "button": "Key.down",
+        "button": "Key.space",
         "pos": null
     },
     {
         "time": 2.6247315406799316,
         "type": "release",
-        "button": "Key.down",
+        "button": "Key.space",
         "pos": null
     },
     {
         "time": 2.995774984359741,
         "type": "press",
-        "button": "Key.down",
+        "button": "Key.space",
         "pos": null
     },
     {
         "time": 3.103572130203247,
         "type": "release",
-        "button": "Key.down",
+        "button": "Key.space",
         "pos": null
     },
     {
@@ -46,6 +33,18 @@
         "time": 3.6163153648376465,
         "type": "release",
         "button": "Key.space",
+        "pos": null
+    },
+    {
+        "time": 4.1,
+        "type": "press",
+        "button": "Key.esc",
+        "pos": null
+    },
+    {
+        "time": 4.25,
+        "type": "release",
+        "button": "Key.esc",
         "pos": null
     }
 ]
