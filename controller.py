@@ -9,6 +9,7 @@ import threading
 import pytesseract
 import numpy as np
 import math
+from win32gui import FindWindow, GetWindowRect
 
 def getMaterials():
     x = threading.Thread(target=hoverFatigue)
@@ -82,9 +83,18 @@ def hoverFatigue():
     pyautogui.move(50,0)
     pyautogui.move(100,0,10)
 
+def gameWindow():
+
+    gameHandle = FindWindow(None, "Dungeon Fighter Online")
+    gameWindow = GetWindowRect(gameHandle)
+    gameBox = (gameWindow[0], gameWindow[1], gameWindow[2]-gameWindow[0], gameWindow[3]-gameWindow[1])
+
+    return gameBox
+
 def tourney():
+    box = gameWindow()
     try:
-        for x in range(2):
+        for x in range(3):
             getMaterials()
             playActions("leaveSeria.json")
             playActions("toSiran.json")
@@ -98,10 +108,10 @@ def tourney():
             schedule.every(2).seconds.do(run_threaded, pressButton, button = 'SPACE')
             counter = 0
 
-            while pyautogui.locateOnScreen('images/stop.png', confidence = 0.99) is None:
+            while pyautogui.locateOnScreen('images/stop.png', confidence = 0.99, region = box) is None:
                 retryLocation = None
                 schedule.run_pending()
-                emptyHpBar = pyautogui.locateOnScreen('images/enemyHp.png' , confidence= 0.99)
+                emptyHpBar = pyautogui.locateOnScreen('images/enemyHp.png' , confidence= 0.99, region = box)
 
                 if emptyHpBar:
                     pressButton("0")
@@ -111,7 +121,7 @@ def tourney():
                         time.sleep(0.5)
 
                 if(counter ==  3):
-                    retryLocation = pyautogui.locateOnScreen('images/retry.png' , confidence= 0.99)
+                    retryLocation = pyautogui.locateOnScreen('images/retry.png' , confidence= 0.99, region = box)
                     counter = 0
 
                 if retryLocation:
@@ -124,6 +134,7 @@ def tourney():
             pressButton("F12")
             time.sleep(10)
             pressButton("ESC")
+            time.sleep(3)
             clickCenter('selectChar', 0.8)
             time.sleep(5)
             pressButton("RIGHT")
