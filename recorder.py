@@ -4,7 +4,7 @@ import json
 import os
 
 
-OUTPUT_FILENAME = 'finishQuest1'
+OUTPUT_FILENAME = 'basicAttack'
 # declare mouse_listener globally so that keyboard on_release can stop it
 mouse_listener = None
 # declare our start_time globally so that the callback functions can reference it
