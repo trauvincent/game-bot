@@ -53,7 +53,7 @@ def playActions(filename):
         for index, action in enumerate(data):
             action_start_time = time()
 
-            
+
 
             # perform the action
             if action['type'] == 'press':
