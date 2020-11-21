@@ -15,31 +15,41 @@ def getMaterials(box):
     x = threading.Thread(target=hoverFatigue)
     x.start()
     time.sleep(3)
-    fatigueBox = pyautogui.locateOnScreen('images/fpPoints.png', confidence = 0.7, region = box)
-    print(fatigueBox)
+
+    fatigueBox = pyautogui.locateOnScreen('images/fpPoints.png', confidence = 0.8, region = box)
     x.join()
     materials = processImg(fatigueBox)
+
     pyautogui.moveTo(554, 630)
     pressMouse()
+
     pressButton('tab')
     clickCenter('remove')
     clickCenter('material')
     for x in range(len(str(materials))):
         pressButton(str(materials)[x])
+
+
     barLocation = pyautogui.locateCenterOnScreen('images/fpBar.png' , confidence= 0.9)
     pyautogui.moveTo(barLocation)
     clickCenter('ok')
     pressButton('esc')
     return materials/5
 
+    return materials/5
+
+
 def processImg(box):
     img = pyautogui.screenshot(region=box)
     img = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2BGR)
+    img = cv2.resize(img, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
     img = cv2.medianBlur(img, 3)
+
     string = pytesseract.image_to_string(img)
-    time.sleep(5)
     string = string.split(": ")[1]
     string =  string.split("/")[0]
+
+
     number = float(string)
     materials = math.ceil(number/8) * 5
     materials = int(materials)
@@ -53,11 +63,15 @@ def buyTourney(runs):
     x.start()
     clickCenter('goldDragon')
     x.join()
+
     for digit in str(runs):
         pressButton(digit)
+
     clickCenter('ok')
+
     pressButton("space")
     pressButton("esc")
+
 
 def main():
     time.sleep(10)
@@ -87,9 +101,13 @@ def tourney(characters):
         for x in range(characters):
             runs = getMaterials(box)
             playActions("leaveSeria.json")
+
             playActions("toSiran.json")
+
             purpleQuest()
+
             playActions("siranToJun.json")
+
             glowQuest()
             buyTourney(runs)
             playActions("junToTourney.json")
@@ -141,6 +159,7 @@ def glowQuest():
     clickCenter('glowQuest', 0.9)
     playActions("questChat.json")
     playActions("finishQuest.json")
+
 
 def clickCenter(imgName, con = 0.99):
     location = pyautogui.locateCenterOnScreen(f'images/{imgName}.png', confidence = con)
