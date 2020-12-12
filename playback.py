@@ -86,7 +86,7 @@ def playActions(filename):
                 elapsed_time = 0
             print('sleeping for {}'.format(elapsed_time))
             sleep(elapsed_time)
-    sleep(1)
+    sleep(1.5)
 
 
 # convert pynput button keys into pyautogui keys
